@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<!--
+		Drew McCoy
+		This is the main page of the Fifteen Puzzle website
+		Fifteen Puzzle is a project I completed for CSE 154 (Web Programming) at UW.
+	-->
+	<head>
+		<title>CSE 154 Fifteen Puzzle</title>
+
+		<link href="https://webster.cs.washington.edu/images/fifteen/fifteen.gif"
+		      type="image/gif" rel="shortcut icon" />
+
+		<link href="fifteen.css" type="text/css" rel="stylesheet" />
+		<script src="fifteen.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<h1>Fifteen Puzzle</h1>
+
+		<p>
+			The goal of the fifteen puzzle is to un-jumble its fifteen squares
+			by repeatedly making moves that slide squares into the empty space.
+			How quickly can you solve it?
+		</p>
+
+		<div id="puzzlearea"></div>
+
+		<p id="controls">
+			<button id="shufflebutton">Shuffle</button>
+		</p>
+
+		<div id="output"></div>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+/*
+Author: Drew McCoy
+This is the style sheet for the Fifteen Puzzle website.
+*/
+
+body, button, select {
+	font-family: "Comic Sans MS";
+	font-size: 14pt;
+	text-align: center;
+}
+
+div.hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+div.normal {
+	border: 5px solid black;
+	color: black;
+	cursor: default;
+}
+
+div.piece {
+	background-image: url(backgrounds/peyton.jpg);
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+
+}
+
+#puzzlearea {
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 400px;
+}
+
+#x1, #x2, #x3, #x4 {
+	top: 0px;
+}
+
+#x1, #x5, #x9, #x13 {
+	left: 0px;
+}
+
+#x2, #x6, #x10, #x14 {
+	left: 100px;
+}
+
+#x3, #x7, #x11, #x15 {
+	left: 200px;
+}
+
+#x4, #x8, #x12, #x16 {
+	left: 300px;
+}
+
+#x5, #x6, #x7, #x8 {
+	top: 100px;
+}
+
+#x9, #x10, #x11, #x12 {
+	top: 200px;
+}
+
+#x13, #x14, #x15, #x16 {
+	top: 300px;
+}
